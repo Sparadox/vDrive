@@ -12,7 +12,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((hote, port))
 
 while True:
-    msgEnv = "bite"
+    msgEnv = "random_message"
     msgEnv = msgEnv.encode()
 
     sock.send(msgEnv)
